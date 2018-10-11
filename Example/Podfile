@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JFLogHelper_Example' do
+  pod 'JFLogHelper', :path => '../'
+
+  target 'JFLogHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
