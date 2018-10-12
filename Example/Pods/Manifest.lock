@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JFLogHelper: d565baedbfb86d078e3cdf3ea0b5ca7f20ffb5e4
+  JFLogHelper: dcb7867190f6688f86b9f62aa2fd3a24b56f809c
 
 PODFILE CHECKSUM: 26359a8bbe3ef2a2574f0264b98d368edb88f867
 

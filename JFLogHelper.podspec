@@ -28,20 +28,34 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JFLogHelper/Classes/**/*'
+#  s.source_files = 'JFLogHelper/Classes/**/*'
   
-  s.resource_bundles = {
-    'JFLogHelper' => ['JFLogHelper/Assets/*']
-  }
+#  s.resource_bundles = {
+#    'JFLogHelper' => ['JFLogHelper/Assets/*']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit','Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 
 
 #s.resources = "**/*.bundle"
-    s.vendored_frameworks = "**/*.framework"
-    s.libraries = 'c++', 'z'
+#    s.libraries = 'c++', 'z'
+
+
+s.source_files = 'JFLogHelper/JFLogging.framework/Headers/*.{h}'
+s.public_header_files = 'JFLogHelper/JFLogging.framework/Headers/*.{h}'
+
+s.frameworks = 'UIKit','Foundation'
+s.vendored_frameworks = "JFLogHelper/JFLogging.framework"
+s.static_framework  =  true
 
 
 end
+
+
+
+
+
+
+# pod repo push JFRepo JFLogHelper.podspec --use-libraries --allow-warnings
+

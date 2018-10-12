@@ -18,22 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "resource_bundles": {
-    "JFLogHelper": [
-      "JFLogHelper/Assets/*"
-    ]
-  },
+  "source_files": "JFLogHelper/JFLogging.framework/Headers/*.{h}",
+  "public_header_files": "JFLogHelper/JFLogging.framework/Headers/*.{h}",
   "frameworks": [
     "UIKit",
     "Foundation"
   ],
-  "vendored_frameworks": "**/*.framework",
-  "libraries": [
-    "c++",
-    "z"
-  ],
-  "source_files": [
-    "JFLogHelper/Classes/**/*",
-    "JFLogHelper/JFLogHelper.framework/Headers/*.{h}"
-  ]
+  "vendored_frameworks": "JFLogHelper/JFLogging.framework"
 }

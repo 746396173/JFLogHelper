@@ -64,7 +64,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91E7B3036C42DC57811ED73F /* libPods-JFLogHelper_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFLogHelper_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		941BEA4FE16595BC55E54A90 /* Pods-JFLogHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFLogHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFLogHelper_Example/Pods-JFLogHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E8D0656FEC485A42FF397ECF /* JFLogHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JFLogHelper.podspec; path = ../JFLogHelper.podspec; sourceTree = "<group>"; };
+		E8D0656FEC485A42FF397ECF /* JFLogHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JFLogHelper.podspec; path = ../JFLogHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F3C91B8F116B470A392F486E /* Pods-JFLogHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFLogHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFLogHelper_Tests/Pods-JFLogHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F760DA8FB612BC158D37D006 /* libPods-JFLogHelper_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFLogHelper_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				9E48889905903096EA8A196D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,24 +296,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9E48889905903096EA8A196D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JFLogHelper_Example/Pods-JFLogHelper_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/JFLogHelper/JFLogHelper.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JFLogHelper.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JFLogHelper_Example/Pods-JFLogHelper_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A0CDF699CD2E68CDE2882A3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,7 +474,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFLogHelper/JFLogHelper-Prefix.pch";
 				INFOPLIST_FILE = "JFLogHelper/JFLogHelper-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
@@ -513,7 +494,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFLogHelper/JFLogHelper-Prefix.pch";
 				INFOPLIST_FILE = "JFLogHelper/JFLogHelper-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
