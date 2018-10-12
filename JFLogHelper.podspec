@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JFLogHelper'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JFLogHelper.'
+  s.version          = '0.0.1'
+  s.summary          = 'A tool of show logging in application'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'shake your phone and show logging in application'
 
   s.homepage         = 'https://github.com/gujianxing/JFLogHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,11 +30,18 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'JFLogHelper/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JFLogHelper' => ['JFLogHelper/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'JFLogHelper' => ['JFLogHelper/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+    s.frameworks = 'UIKit','Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+
+#s.resources = "**/*.bundle"
+    s.vendored_frameworks = "**/*.framework"
+    s.libraries = 'c++', 'z'
+
+
 end

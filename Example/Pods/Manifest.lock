@@ -1,0 +1,16 @@
+PODS:
+  - JFLogHelper (0.0.1)
+
+DEPENDENCIES:
+  - JFLogHelper (from `../`)
+
+EXTERNAL SOURCES:
+  JFLogHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JFLogHelper: d565baedbfb86d078e3cdf3ea0b5ca7f20ffb5e4
+
+PODFILE CHECKSUM: 26359a8bbe3ef2a2574f0264b98d368edb88f867
+
+COCOAPODS: 1.5.3

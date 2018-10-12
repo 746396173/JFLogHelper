@@ -7,12 +7,15 @@
 //
 
 #import "JFAppDelegate.h"
+#import <JFLogging/JFLogHelper.h>
 
 @implementation JFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [JFLogHelper start];
+    
     return YES;
 }
 

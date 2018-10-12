@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5506A41CF95AF39E08A6056118A3DA15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7F6D67F38C4B2D2864191AEB60673B6E /* Pods-JFLogHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C80E77264DCBAAFF11D424C8F09748 /* Pods-JFLogHelper_Tests-dummy.m */; };
+		89B6F9627853D8D504A083F981B109EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8AF5643374819219EA968282E0A829A7 /* Pods-JFLogHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0B157C66C19A66317E7E55097DF6C /* Pods-JFLogHelper_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C773873F43A2B42D082A85E078C4B3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 597BF1BAAAF46FB9ED061D68F01FE759;
+			remoteInfo = "JFLogHelper-JFLogHelper";
+		};
+		EAFE9C37A7BAEA8B03A31D54117EB2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562C3CF597A8B4867C7A8F12F40B6253;
+			remoteInfo = "Pods-JFLogHelper_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FCB04FD6BD38B5391055EC6D67F228 /* Pods-JFLogHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JFLogHelper_Tests-resources.sh"; sourceTree = "<group>"; };
+		097A7B1403C44A1E05A95CF099EA32EF /* libPods-JFLogHelper_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JFLogHelper_Tests.a"; path = "libPods-JFLogHelper_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A086D9263E5D1C2F05099E4963E1FD9 /* Pods-JFLogHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFLogHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0EAEADFE3854E7106FF4128D8FACE217 /* JFLogHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JFLogHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		19F7A9303760ED77002D47081187B8AD /* Pods-JFLogHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JFLogHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FD336C088C6F29E3E2DE4DC2BAD2C55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2677C2040ED3E5A2572FC478308F3B54 /* Pods-JFLogHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JFLogHelper_Example-resources.sh"; sourceTree = "<group>"; };
+		3F206CA9182FE9FDDC1C499086255E68 /* Pods-JFLogHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFLogHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4ACF44E45EB20A25AFAEC01AF3C2910D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4D7138839CF6E6C279255A48153DB107 /* Pods-JFLogHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JFLogHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D5A2D0C2DCDCEB9C0EF71AB0450B6A8 /* JFLogHelper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JFLogHelper.bundle; path = "JFLogHelper-JFLogHelper.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D3C7E45762E970EF616E6EE89071AF /* JFLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JFLogging.framework; path = JFLogHelper/JFLogging.framework; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70D871474DE5B23AEE59365F6BF93CF0 /* libPods-JFLogHelper_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JFLogHelper_Example.a"; path = "libPods-JFLogHelper_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C80E77264DCBAAFF11D424C8F09748 /* Pods-JFLogHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JFLogHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		8712BEDDB00912D78AE7431C4B0766D1 /* Pods-JFLogHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JFLogHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AA1A2ABCAE2ADDB66ED7ACF43D22853 /* ResourceBundle-JFLogHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JFLogHelper-Info.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B5ABA811786DB03961AF4D9296A81AB /* Pods-JFLogHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFLogHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9BE0B157C66C19A66317E7E55097DF6C /* Pods-JFLogHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JFLogHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		A94E42FC401B3955B33D3786BBFD7CFB /* Pods-JFLogHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JFLogHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C58C3FF34705A02E0D33644B0F2DC8A3 /* Pods-JFLogHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JFLogHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EC5F847346120DC6C86A60612F581ACE /* Pods-JFLogHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFLogHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F58654481CEA664D70E68AE72D94F1EC /* Pods-JFLogHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JFLogHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629A8C39847EBD6A9660DA03B4176321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5506A41CF95AF39E08A6056118A3DA15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91344844DF2587119DCB6A493EB21482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9320BCF7F5A74F76ADF4581A5AA9A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B6F9627853D8D504A083F981B109EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E1FC3B56A35C5E7C948B985996D182 /* JFLogHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C83ED9AFE365CDF8C4F30ABB44F102A4 /* Frameworks */,
+				7E04D3A92D177B0E8022394424FF0CCD /* Pod */,
+				EB36E5D6A2ED80C85F8B853005667AC2 /* Support Files */,
+			);
+			name = JFLogHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1BF9849FB1CD97D20E7CC0E5A8218315 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D1ADDFDFC71DFFA90F5CEF53972B10A /* Pods-JFLogHelper_Example */,
+				34161DFA237F8601611959ABDD71B982 /* Pods-JFLogHelper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		34161DFA237F8601611959ABDD71B982 /* Pods-JFLogHelper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8712BEDDB00912D78AE7431C4B0766D1 /* Pods-JFLogHelper_Tests-acknowledgements.markdown */,
+				F58654481CEA664D70E68AE72D94F1EC /* Pods-JFLogHelper_Tests-acknowledgements.plist */,
+				77C80E77264DCBAAFF11D424C8F09748 /* Pods-JFLogHelper_Tests-dummy.m */,
+				C58C3FF34705A02E0D33644B0F2DC8A3 /* Pods-JFLogHelper_Tests-frameworks.sh */,
+				00FCB04FD6BD38B5391055EC6D67F228 /* Pods-JFLogHelper_Tests-resources.sh */,
+				3F206CA9182FE9FDDC1C499086255E68 /* Pods-JFLogHelper_Tests.debug.xcconfig */,
+				0A086D9263E5D1C2F05099E4963E1FD9 /* Pods-JFLogHelper_Tests.release.xcconfig */,
+			);
+			name = "Pods-JFLogHelper_Tests";
+			path = "Target Support Files/Pods-JFLogHelper_Tests";
+			sourceTree = "<group>";
+		};
+		3B21FE6FD035CB7F1EC5ACE5D28B2971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5A2D0C2DCDCEB9C0EF71AB0450B6A8 /* JFLogHelper.bundle */,
+				70D871474DE5B23AEE59365F6BF93CF0 /* libPods-JFLogHelper_Example.a */,
+				097A7B1403C44A1E05A95CF099EA32EF /* libPods-JFLogHelper_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D1ADDFDFC71DFFA90F5CEF53972B10A /* Pods-JFLogHelper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A94E42FC401B3955B33D3786BBFD7CFB /* Pods-JFLogHelper_Example-acknowledgements.markdown */,
+				19F7A9303760ED77002D47081187B8AD /* Pods-JFLogHelper_Example-acknowledgements.plist */,
+				9BE0B157C66C19A66317E7E55097DF6C /* Pods-JFLogHelper_Example-dummy.m */,
+				4D7138839CF6E6C279255A48153DB107 /* Pods-JFLogHelper_Example-frameworks.sh */,
+				2677C2040ED3E5A2572FC478308F3B54 /* Pods-JFLogHelper_Example-resources.sh */,
+				EC5F847346120DC6C86A60612F581ACE /* Pods-JFLogHelper_Example.debug.xcconfig */,
+				9B5ABA811786DB03961AF4D9296A81AB /* Pods-JFLogHelper_Example.release.xcconfig */,
+			);
+			name = "Pods-JFLogHelper_Example";
+			path = "Target Support Files/Pods-JFLogHelper_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E1FC8704444B0647D5A6C5515A5A0C42 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3B21FE6FD035CB7F1EC5ACE5D28B2971 /* Products */,
+				1BF9849FB1CD97D20E7CC0E5A8218315 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E04D3A92D177B0E8022394424FF0CCD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0EAEADFE3854E7106FF4128D8FACE217 /* JFLogHelper.podspec */,
+				1FD336C088C6F29E3E2DE4DC2BAD2C55 /* LICENSE */,
+				4ACF44E45EB20A25AFAEC01AF3C2910D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C83ED9AFE365CDF8C4F30ABB44F102A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60D3C7E45762E970EF616E6EE89071AF /* JFLogging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1FC8704444B0647D5A6C5515A5A0C42 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03E1FC3B56A35C5E7C948B985996D182 /* JFLogHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EB36E5D6A2ED80C85F8B853005667AC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AA1A2ABCAE2ADDB66ED7ACF43D22853 /* ResourceBundle-JFLogHelper-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JFLogHelper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562C3CF597A8B4867C7A8F12F40B6253 /* Pods-JFLogHelper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D004F9DB1BE02BB8CE3502FFB5BAFA71 /* Build configuration list for PBXNativeTarget "Pods-JFLogHelper_Example" */;
+			buildPhases = (
+				1F651739FD7CFBD0E9CACE3436C05B87 /* Sources */,
+				D9320BCF7F5A74F76ADF4581A5AA9A0D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9125A4E1DE3E7AF51CF88029F2239739 /* PBXTargetDependency */,
+			);
+			name = "Pods-JFLogHelper_Example";
+			productName = "Pods-JFLogHelper_Example";
+			productReference = 70D871474DE5B23AEE59365F6BF93CF0 /* libPods-JFLogHelper_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		597BF1BAAAF46FB9ED061D68F01FE759 /* JFLogHelper-JFLogHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71033003F87B84A3627A24130DC28118 /* Build configuration list for PBXNativeTarget "JFLogHelper-JFLogHelper" */;
+			buildPhases = (
+				E1AC33015524C7F587657E4DD052CA38 /* Sources */,
+				91344844DF2587119DCB6A493EB21482 /* Frameworks */,
+				B80260BF3D770470A28EB0B86107698E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JFLogHelper-JFLogHelper";
+			productName = "JFLogHelper-JFLogHelper";
+			productReference = 5D5A2D0C2DCDCEB9C0EF71AB0450B6A8 /* JFLogHelper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AA28AFECDE6C9E35239783E68DAD403F /* Pods-JFLogHelper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E99CCA070904999F6FCB892772D44D /* Build configuration list for PBXNativeTarget "Pods-JFLogHelper_Tests" */;
+			buildPhases = (
+				DC45F614574A1B421351D7D54202F6F4 /* Sources */,
+				629A8C39847EBD6A9660DA03B4176321 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A0D6016CA803028D05E709E8FE5AAA /* PBXTargetDependency */,
+			);
+			name = "Pods-JFLogHelper_Tests";
+			productName = "Pods-JFLogHelper_Tests";
+			productReference = 097A7B1403C44A1E05A95CF099EA32EF /* libPods-JFLogHelper_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3B21FE6FD035CB7F1EC5ACE5D28B2971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				597BF1BAAAF46FB9ED061D68F01FE759 /* JFLogHelper-JFLogHelper */,
+				562C3CF597A8B4867C7A8F12F40B6253 /* Pods-JFLogHelper_Example */,
+				AA28AFECDE6C9E35239783E68DAD403F /* Pods-JFLogHelper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B80260BF3D770470A28EB0B86107698E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F651739FD7CFBD0E9CACE3436C05B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF5643374819219EA968282E0A829A7 /* Pods-JFLogHelper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC45F614574A1B421351D7D54202F6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6D67F38C4B2D2864191AEB60673B6E /* Pods-JFLogHelper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AC33015524C7F587657E4DD052CA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80A0D6016CA803028D05E709E8FE5AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JFLogHelper_Example";
+			target = 562C3CF597A8B4867C7A8F12F40B6253 /* Pods-JFLogHelper_Example */;
+			targetProxy = EAFE9C37A7BAEA8B03A31D54117EB2A2 /* PBXContainerItemProxy */;
+		};
+		9125A4E1DE3E7AF51CF88029F2239739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JFLogHelper-JFLogHelper";
+			target = 597BF1BAAAF46FB9ED061D68F01FE759 /* JFLogHelper-JFLogHelper */;
+			targetProxy = C773873F43A2B42D082A85E078C4B3D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0134DE86348FEC74BC6A1327DB814A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JFLogHelper";
+				INFOPLIST_FILE = "Target Support Files/JFLogHelper/ResourceBundle-JFLogHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JFLogHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F3E9A390887C23C4A0AAA46C715963D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JFLogHelper";
+				INFOPLIST_FILE = "Target Support Files/JFLogHelper/ResourceBundle-JFLogHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JFLogHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		996C97ABA99023E0F0DDE418D2189AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F206CA9182FE9FDDC1C499086255E68 /* Pods-JFLogHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0ADB1A35962489F211E27E63A39D2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A086D9263E5D1C2F05099E4963E1FD9 /* Pods-JFLogHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4A0F7A3ADDC1AB502DA018F0C29D4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5ABA811786DB03961AF4D9296A81AB /* Pods-JFLogHelper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0763BB349BA6FDAC57B21AD3FF0B80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5F847346120DC6C86A60612F581ACE /* Pods-JFLogHelper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E99CCA070904999F6FCB892772D44D /* Build configuration list for PBXNativeTarget "Pods-JFLogHelper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996C97ABA99023E0F0DDE418D2189AA8 /* Debug */,
+				B0ADB1A35962489F211E27E63A39D2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71033003F87B84A3627A24130DC28118 /* Build configuration list for PBXNativeTarget "JFLogHelper-JFLogHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3E9A390887C23C4A0AAA46C715963D /* Debug */,
+				0134DE86348FEC74BC6A1327DB814A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D004F9DB1BE02BB8CE3502FFB5BAFA71 /* Build configuration list for PBXNativeTarget "Pods-JFLogHelper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0763BB349BA6FDAC57B21AD3FF0B80D /* Debug */,
+				C4A0F7A3ADDC1AB502DA018F0C29D4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
