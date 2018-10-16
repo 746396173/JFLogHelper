@@ -40,9 +40,9 @@
 		9B5ABA811786DB03961AF4D9296A81AB /* Pods-JFLogHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFLogHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9BE0B157C66C19A66317E7E55097DF6C /* Pods-JFLogHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JFLogHelper_Example-dummy.m"; sourceTree = "<group>"; };
 		A94E42FC401B3955B33D3786BBFD7CFB /* Pods-JFLogHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JFLogHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF3453DF2BD933A85E8C8765CFC7ACC0 /* JFLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JFLogging.framework; sourceTree = "<group>"; };
 		C268D6D5F4AD65F7DCFD936027AB017A /* JFLogHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JFLogHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C58C3FF34705A02E0D33644B0F2DC8A3 /* Pods-JFLogHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JFLogHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DDE3DC0016ED88B9374E6BDB7FB6412B /* JFLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JFLogging.framework; path = JFLogHelper/JFLogging.framework; sourceTree = "<group>"; };
 		EC5F847346120DC6C86A60612F581ACE /* Pods-JFLogHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFLogHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F58654481CEA664D70E68AE72D94F1EC /* Pods-JFLogHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JFLogHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F628683FB4620D5BC0302190C3B53C83 /* libPods-JFLogHelper_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JFLogHelper_Example.a"; path = "libPods-JFLogHelper_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +100,14 @@
 			path = "Target Support Files/Pods-JFLogHelper_Tests";
 			sourceTree = "<group>";
 		};
+		3D2BF75DA53E02B61D98FE7AB9A6D442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF3453DF2BD933A85E8C8765CFC7ACC0 /* JFLogging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7D1ADDFDFC71DFFA90F5CEF53972B10A /* Pods-JFLogHelper_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,14 +152,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6FEE3BCBAF1F3399992189EF069F309 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DDE3DC0016ED88B9374E6BDB7FB6412B /* JFLogging.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C999ED8EDF05DDCFB83CAC15D863D0C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,7 +172,7 @@
 		D4925CBA85D325799B5E350065AF06DD /* JFLogHelper */ = {
 			isa = PBXGroup;
 			children = (
-				C6FEE3BCBAF1F3399992189EF069F309 /* Frameworks */,
+				3D2BF75DA53E02B61D98FE7AB9A6D442 /* Frameworks */,
 				A844ED5D8581612AA0F9B6CD1DC7A499 /* Pod */,
 			);
 			name = JFLogHelper;

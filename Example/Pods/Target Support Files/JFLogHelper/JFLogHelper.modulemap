@@ -1,6 +1,0 @@
-framework module JFLogHelper {
-  umbrella header "JFLogHelper-umbrella.h"
-
-  export *
-  module * { export * }
-}

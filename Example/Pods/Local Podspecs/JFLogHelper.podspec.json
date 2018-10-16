@@ -12,17 +12,10 @@
     "gujianxing": "13783172461@163.com"
   },
   "source": {
-    "git": "https://github.com/gujianxing/JFLogHelper.git",
-    "tag": "0.0.1"
+    "http": "https://raw.githubusercontent.com/gujianxing/frameworks/master/JFLogging.framework.zip"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JFLogHelper/JFLogging.framework/Headers/*.{h}",
-  "public_header_files": "JFLogHelper/JFLogging.framework/Headers/*.{h}",
-  "frameworks": [
-    "UIKit",
-    "Foundation"
-  ],
-  "vendored_frameworks": "JFLogHelper/JFLogging.framework"
+  "vendored_frameworks": "JFLogging.framework"
 }

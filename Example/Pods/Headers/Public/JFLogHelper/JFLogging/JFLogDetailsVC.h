@@ -1,1 +1,0 @@
-../../../../../../JFLogHelper/JFLogging.framework/Versions/A/Headers/JFLogDetailsVC.h
