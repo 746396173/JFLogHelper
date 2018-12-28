@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JFLogHelper'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A tool of develop to show logging in iOS device'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 #  }
 
   # s.dependency 'AFNetworking', '~> 2.3'
-  #s.frameworks = 'UIKit','Foundation', 'IMSApiClient'
+  s.frameworks = 'UIKit','Foundation', 'MessageUI'
 
   
   #s.source_files = 'IMSApiClient.framework/Headers/*.{h}'

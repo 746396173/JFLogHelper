@@ -1,8 +1,8 @@
 {
   "name": "JFLogHelper",
   "version": "0.0.1",
-  "summary": "A tool of show logging in application",
-  "description": "shake your phone and show logging in application",
+  "summary": "A tool of develop to show logging in iOS device",
+  "description": "show logging",
   "homepage": "https://github.com/gujianxing/JFLogHelper",
   "license": {
     "type": "MIT",
@@ -12,10 +12,16 @@
     "gujianxing": "13783172461@163.com"
   },
   "source": {
-    "http": "https://raw.githubusercontent.com/gujianxing/frameworks/master/JFLogging.framework.zip"
+    "git": "https://github.com/gujianxing/JFLogHelper.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "MessageUI"
+  ],
   "vendored_frameworks": "JFLogging.framework"
 }
