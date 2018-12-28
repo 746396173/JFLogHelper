@@ -1,5 +1,5 @@
 PODS:
-  - JFLogHelper (0.0.1)
+  - JFLogHelper (0.0.2)
 
 DEPENDENCIES:
   - JFLogHelper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JFLogHelper: d14be33253172ddb9dfb6e4448f8c68a4df6e351
+  JFLogHelper: 5b4685f6bce935e8b7d3b1dbd61de608461c6bba
 
 PODFILE CHECKSUM: 26359a8bbe3ef2a2574f0264b98d368edb88f867
 
