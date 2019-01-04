@@ -1,6 +1,6 @@
 {
   "name": "JFLogHelper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "A tool of develop to show logging in iOS device",
   "description": "show logging",
   "homepage": "https://github.com/gujianxing/JFLogHelper",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/gujianxing/JFLogHelper.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"
