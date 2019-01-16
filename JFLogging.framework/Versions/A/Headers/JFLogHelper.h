@@ -21,6 +21,8 @@
  */
 
 
+//The presentViewController will add a UITransitionView instance on the window, the loggingView will be hidden if use the api.
+
 
 /**
  use JFLogHelper in project
